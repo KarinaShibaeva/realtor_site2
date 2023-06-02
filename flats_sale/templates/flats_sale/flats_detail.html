@@ -1,0 +1,9 @@
+{% extends "root.html" %}
+{% block content %}
+<div class="ms-4 me-4">
+    <h1>{{ pk.name }}</h1>
+    <img src="{{ pk.image.url }}" alt="" width="200px" height="300px">
+    <p>{{ pk.description }}</p>
+</div>
+    
+{% endblock %}
